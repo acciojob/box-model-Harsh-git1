@@ -19,20 +19,26 @@
     align-items: center;
 }
 
-.circle{
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
-}
-#circle1{
-    background-color: green;
-}
-
-#circle2{
-    background-color: yellow;
-    margin-left: 5px;
-	margin-right: 5px;
-}
-#circle3{
-	background-color: red;
-}
+.green{
+            height: 100px;
+            width: 100px;
+            
+            border-radius: 50%;
+            background-color: green;
+        }
+        .yellow{
+            height: 100px;
+            width: 100px;
+            
+            border-radius: 50%;
+            background-color: yellow;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+        .red{
+            height: 100px;
+            width: 100px;
+        
+            border-radius: 50%;
+            background-color: red;
+        }
